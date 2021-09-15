@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="favicon.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient2789"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop2787" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0708779"
+     inkscape:cx="651.06809"
+     inkscape:cy="614.0843"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect7"
+       width="124.74"
+       height="2.0964661"
+       x="31.097645"
+       y="230.26234" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="poteau"
+       width="2.795294"
+       height="128.58353"
+       x="79.665878"
+       y="102.02824" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="potence"
+       width="106.92"
+       height="2.7952931"
+       x="82.461174"
+       y="102.02824" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.065;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 80.693223,137.98069 C 113.2303,103.11342 113.2303,103.11342 113.2303,103.11342"
+       id="barre" />
+    <rect
+       style="fill:#000000;stroke-width:2.065;stroke-miterlimit:4;stroke-dasharray:none"
+       id="corde"
+       width="1.7470587"
+       height="25.507059"
+       x="168.06705"
+       y="104.12471" />
+    <ellipse
+       style="stroke-width:2.06507292;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1;fill:#dce0db;stroke:#000000;stroke-opacity:1"
+       id="tete"
+       cx="168.76588"
+       cy="137.49353"
+       rx="8.7353001"
+       ry="8.9099951" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.06507;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="corps"
+       width="0.34941176"
+       height="36.338821"
+       x="168.06705"
+       y="147.45177" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5875;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 168.06705,183.79059 c -12.22939,12.92823 -12.22939,12.92823 -12.22939,12.92823"
+       id="jambe_gauche" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5875;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 168.41645,183.79059 c 11.28641,12.31859 11.28641,12.31859 11.28641,12.31859"
+       id="jambe_droite" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.75137;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 167.97305,156.95507 c -15.9296,9.748 -15.9296,10.00453 -15.9296,10.00453"
+       id="bras_gauche" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.5875;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 168.00857,156.89036 c 15.5655,9.38871 15.5655,9.38871 15.5655,9.38871"
+       id="bras_droit" />
+  </g>
+</svg>

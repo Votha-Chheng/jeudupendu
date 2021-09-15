@@ -1,0 +1,39 @@
+<svg width="210" height="297" viewBox="0 0 210 297" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pendu 1">
+<g id="layer1">
+<g id="base">
+<path id="rect841" d="M155.838 230.262H31.0977V232.359H155.838V230.262Z" fill="black"/>
+</g>
+<g id="poteau">
+<path id="rect843" d="M82.4612 102.028H79.6659V230.612H82.4612V102.028Z" fill="black"/>
+</g>
+<g id="potence">
+<path id="rect845" d="M189.381 102.028H82.4612V104.824H189.381V102.028Z" fill="black"/>
+</g>
+<g id="support">
+<path id="path849" d="M80.6932 137.981C113.23 103.113 113.23 103.113 113.23 103.113" stroke="black" stroke-width="2.065"/>
+</g>
+<g id="corde">
+<path id="rect851" d="M169.814 104.125H168.067V129.632H169.814V104.125Z" fill="black"/>
+</g>
+<g id="tete">
+<path id="path853" d="M168.766 146.404C173.59 146.404 177.501 142.414 177.501 137.494C177.501 132.573 173.59 128.584 168.766 128.584C163.942 128.584 160.031 132.573 160.031 137.494C160.031 142.414 163.942 146.404 168.766 146.404Z" fill="#DCE0DB" stroke="black" stroke-width="2.06507"/>
+</g>
+<g id="corps">
+<path id="rect2815" d="M168.416 147.452H168.067V183.791H168.416V147.452Z" stroke="black" stroke-width="2.06507"/>
+</g>
+<g id="jambe_gauche">
+<path id="path2821" d="M168.067 183.791C155.838 196.719 155.838 196.719 155.838 196.719" stroke="black" stroke-width="1.5875"/>
+</g>
+<g id="jambe_droite">
+<path id="path2823" d="M168.416 183.791C179.703 196.109 179.703 196.109 179.703 196.109" stroke="black" stroke-width="1.5875"/>
+</g>
+<g id="bras_gauche">
+<path id="path2825" d="M167.973 156.955C152.043 166.703 152.043 166.96 152.043 166.96" stroke="black" stroke-width="1.75137"/>
+</g>
+<g id="bras_droit">
+<path id="path2827" d="M168.009 156.89C183.574 166.279 183.574 166.279 183.574 166.279" stroke="black" stroke-width="1.5875"/>
+</g>
+</g>
+</g>
+</svg>

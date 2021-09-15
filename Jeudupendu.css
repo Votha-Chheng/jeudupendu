@@ -1,0 +1,342 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    text-align: center;
+}
+main{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+/*---------------------------------------------------------------*/
+
+#menu{
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    margin: 100px 150px auto 150px;
+    
+}
+#menu h1{
+    padding: 100px 150px 100px 150px;
+}
+#menu button{
+    width: 250px;
+    height: 75px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: -5px 10px 5px 5px rgb(89, 136, 136);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+#menu button:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 15px 22px 5px rgb(115, 146, 146);
+    transition: all 0.3s ease-in-out;
+}
+
+/*--------------------------------------------------------------------*/
+
+.visible{
+    display: contents;
+}
+
+.hidden{
+    display: none;
+}
+
+/*-------------------------------------------------------------*/
+
+#changer_themes{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#changer_themes h2{
+
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+#choix_theme{
+    height: 500px;
+    width: 500px ;
+    background-color: darkgoldenrod;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    display: flex;
+    border: 5px solid rgb(31, 30, 30);
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#choix_theme button{
+    font-weight: bolder;
+    font-family: 'Kavoon', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid rgb(153, 111, 4);
+    box-shadow: inset 5px 0px 5px 0px rgb(107, 77, 1);;
+    transition: 0.2s ease-in-out;
+    
+}
+
+#choix_theme button:hover{
+    transform: scale(1.3);
+}
+
+.selected{
+    background-color: yellow;
+}
+.retour{
+    padding-top: 15px;
+}
+.retour button{
+    font-family: Tahoma, Geneva, Verdana, sans-serif; 
+    width: 150px;
+    padding: 3px;
+    color: rgb(9, 0, 130);
+    background-color: yellow;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border : 3px solid rgb(68, 67, 67);
+    font-weight: bold;
+}
+.retour button:hover{
+    transform: scale(1.2);
+    background-color: rgb(51, 40, 204);
+    transition: all 0.3s;
+    font-weight: bold;
+    color: yellow;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+
+@media screen and (max-height : 800px) /*and (max-width:1280px)*/{
+    body{
+       height: 650px;
+    }
+    #nom_theme{
+        padding-top: 0px;
+    }
+    #affichage_jeu{
+        grid-template-columns: repeat(auto-fit, 1fr);
+    }
+
+    div #changer_themes{
+        margin-top: 0px;
+    }
+    div #changer_themes h2{
+        margin-top: 5px;
+    }
+    #choix_theme{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    } 
+    .retour button{
+        font-size: 1.1rem;
+        width: 250px;
+    }   
+}
+@media screen and (max-width:1280px){
+    #dessin{
+        max-width: 50%;
+        padding: 0;
+    }
+    #dessin svg{
+        width: 100%;
+        height: 100%;
+    }    
+}
+
+
+#affichage_jeu{
+    height: 100%;
+    width: 100%;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#nom_theme{
+    font-family: 'Kavoon',Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+#nom_theme h2{
+    font-size: 2em;
+    color: midnightblue;
+}
+
+#next button{
+    background-color: green;
+    color: orange;
+    font-size: 1.5rem;
+    width: 180px;
+    height: 5vh;
+    border-radius: 20px;
+    transition: all 0.2s ease-in;
+}
+#next button:hover{
+    color: green;
+    background-color: orange;
+    transform: scale(1.3);
+}
+
+
+/*--------------------------------------------------------------------------------*/
+#dessin{
+    padding-top: 20px;
+    max-width: 90%;
+}
+
+
+
+/*--------------------------------------------------------------------------------*/
+
+#mot_a_deviner{
+    text-align: center;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    display: inline-block;
+    height: 75%;
+    width: 800px;
+    background-color: rgb(212, 191, 188);
+}
+
+#mot_a_deviner div span{
+    font-size: 1.8em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mot_a_deviner .tiret {
+    justify-content: center;
+    width: 30px;
+    display: inline-block;
+    background-color: seagreen;
+    border-bottom: 2px solid black;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#mot_a_deviner .nonTiret{
+    justify-content: center;
+    width: 30px;
+    display: inline-block;
+    background-color: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.transparent{
+    opacity: 0;
+}
+
+.apparent{
+    opacity: 1;
+}
+
+#bouton_lettres{
+    border: 2px solid black;
+    border-radius: 9px;
+    box-shadow: 10px 10px 10px 10px rgb(31, 30, 30);
+
+    max-width: 75%;
+    margin : 20px auto;
+    padding: 20px;
+    padding-bottom: auto;
+    text-align: center;
+}
+#bouton_lettres button{
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 1.8em;
+    margin-right: 2px;
+    width: 40px;
+    transition: all 100ms ease-out;
+}
+
+#bouton_lettres button:hover{
+    transform : scale(1.3);
+}
+
+.used{
+    background-color: grey;
+    opacity: 0.8;
+}
+
+footer{  
+    height: 200px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(183, 189, 240);
+    border: solid 1px gray;
+    border-radius: 20px;
+}
+
+#marks{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.cercle{
+    width: 50px;
+    height: 50px;
+    border: solid wheat;
+    border-radius: 50px;
+    background-color:burlywood ;
+    box-shadow: 0px 6px 5px 3px chocolate;
+}
+
+.cercle svg{
+    padding: 7px 0px 0px 7px;
+}
+
+#retour_menu{
+    text-align: center;
+    margin-top: 25px;
+}
+.btn-home svg{
+   padding-top: 5px;
+   transition: all 180ms;
+}
+.btn-home svg:hover{
+    cursor: pointer;
+    transform : scale(1.5);
+}
+
+/*------------Panneau fin de jeu-----------------*/
+#message_fin{
+    padding-top : 200px ;
+    font-family: 'Kavoon', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.8rem;
+    color: rgb(72, 33, 109);
+
+}
